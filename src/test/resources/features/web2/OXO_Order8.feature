@@ -5,10 +5,10 @@ Background:
 	
 @OXO_ORDER @OXO_ORDER_08 @P_HIGH
 Scenario: verify order confirmation page items 
-	And user clicks on Sign In link in the header 
-	And user enters email "email" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header 
+	And user enter email "email" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
