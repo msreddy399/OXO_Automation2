@@ -109,10 +109,10 @@ Scenario: verify checkout button functionality as a guest user in cart page
 	
 @OXO_CART @OXO_CART_08 @P_MEDIUM
 Scenario: verify checkout button functionality as a registered user in cart page
-	And user clicks on Sign In link in the header 
-	And user enters email "email" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -138,10 +138,10 @@ Scenario: Verify paypal payment method in cart page
 		
 @OXO_CART @OXO_CART_10 @P_MEDIUM
 Scenario: Verify move to wishlist link functionality in cart page
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	  And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
