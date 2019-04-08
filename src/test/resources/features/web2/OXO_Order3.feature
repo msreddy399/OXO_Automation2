@@ -13,7 +13,7 @@ Scenario: Place an order as a registered user with out address saved in user acc
 	And user navigates to cart page 
 	And user clicks on checkout button 
 	And user clicks on checkout as a guest in checkout login page 
-	And user enters shipping email "emailwithoutaddress" 
+	And user enters shipping email "emailwithoutaddress2" 
 	And user enters shipping password "Password" 
 	And clicks on login button 
 	And user enters shipping street address "streetAddress" 
