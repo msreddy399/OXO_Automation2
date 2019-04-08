@@ -12,7 +12,7 @@ Scenario: Place an order as a registered user with out address saved in user acc
 	And clicks on add to cart button 
 	And user navigates to cart page 
 	And user clicks on checkout button 
-	And user enters email in checkout login page "emailwithoutaddress" 
+	And user enters email in checkout login page "emailwithoutaddress3" 
 	And user enters password in checkout login page "Password" 
 	And Clicks on sign button 
 	And user clicks on checkout button 
