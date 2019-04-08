@@ -5,10 +5,10 @@ Background:
 	
 @OXO_MYACCOUNT @OXO_MYACCOUNT_01 @P_MEDIUM
 Scenario: Verify whether user is able to sign in
-	And user clicks on Sign In link in the header 
-	And user enters email "email" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "email" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	When user navigates to my account from dropdown 
 	Then Verify below Sub/Main Module of MyAccount Page 
 		|# Verify following elements in MyAccount |
@@ -19,10 +19,10 @@ Scenario: Verify whether user is able to sign in
 		
 @OXO_MYACCOUNT @OXO_MYACCOUNT_02 @P_MEDIUM
 Scenario: Verify my account dashboard links 
-	And user clicks on Sign In link in the header 
-	And user enters email "email" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "email" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	When user navigates to my account from dropdown 
 	Then Verify below Sub/Main Module of MyAccount Page 
 		|# Verify following elements in MyAccount |
@@ -34,10 +34,10 @@ Scenario: Verify my account dashboard links
 		
 @OXO_MYACCOUNT @OXO_MYACCOUNT_03 @P_MEDIUM
 Scenario: Verify whether user is able to add address in my account
-	And user clicks on Sign In link in the header 
-	And user enters email "emailtempaddress" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailtempaddress" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user navigates to my account from dropdown
 	And clicks on address book 
 	And clicks on add an address
@@ -54,10 +54,10 @@ Scenario: Verify whether user is able to add address in my account
 
 @OXO_MYACCOUNT @OXO_MYACCOUNT_04 @P_MEDIUM
 Scenario: Verify whether user is able to delete address
-	And user clicks on Sign In link in the header 
-	And user enters email "emailtempaddress" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailtempaddress" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user navigates to my account from dropdown
 	And clicks on address book
 	When clicks on delete in address book
@@ -67,10 +67,10 @@ Scenario: Verify whether user is able to delete address
 
 @OXO_MYACCOUNT @OXO_MYACCOUNT_05 @P_MEDIUM
 Scenario: Verify my information section in My Account
-	And user clicks on Sign In link in the header 
-	And user enters email "emailtempaddress" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailtempaddress" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user navigates to my account from dropdown
 	And clicks on address book
 	When clicks on my information in address book
@@ -81,10 +81,10 @@ Scenario: Verify my information section in My Account
 
 @OXO_MYACCOUNT @OXO_MYACCOUNT_06 @P_MEDIUM
 Scenario: Verify my orders section in My Account
-	And user clicks on Sign In link in the header 
-	And user enters email "emailtempaddress" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailtempaddress" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user navigates to my account from dropdown
 	And clicks on address book
 	When clicks on my orders
