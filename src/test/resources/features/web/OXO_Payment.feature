@@ -29,10 +29,10 @@ Scenario: Verify whether user is able to navigate to payment page as a guest use
     
 @OXO_PAYMENT @OXO_PAYMENT_02 @P_MEDIUM
 Scenario: Verify whether registered user with out address saved in user account is able to navigate to payment page when user Logged in Home page header
-    And user clicks on Sign In link in the header 
-	And user enters email "emailwithoutaddress" 
-	And user enters password "Password" 
-	And Clicks on login button 
+    And user clicks on Wish list link in the header
+    And user enter email "emailwithoutaddress" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -98,10 +98,10 @@ Scenario: Verify whether registered user with out address saved in user account 
     
 @OXO_PAYMENT @OXO_PAYMENT_05 @P_MEDIUM
 Scenario: Verify whether registered user with address saved in user account is able to navigate to payment page  when user Logged in from Home page header
-    And user clicks on Sign In link in the header 
-	And user enters email "email" 
-	And user enters password "Password" 
-	And Clicks on login button 
+    And user clicks on Wish list link in the header
+    And user enter email "email" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
