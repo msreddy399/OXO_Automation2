@@ -5,10 +5,10 @@ Background:
 	
 @OXO_ORDER @OXO_ORDER_02 @P_HIGH
 Scenario: Place an order as a registered user with out address saved in user account when user Logged in from Home page header 
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwithoutaddress" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
