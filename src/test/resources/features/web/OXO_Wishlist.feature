@@ -5,10 +5,10 @@ Background:
 	
 @OXO_WISHLIST @OXO_WISHLIST_01 @P_MEDIUM
 Scenario: Verify the product attributes in Wish List page
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -27,10 +27,10 @@ Scenario: Verify the product attributes in Wish List page
 	
 @OXO_WISHLIST @OXO_WISHLIST_02 @P_MEDIUM
 Scenario: Verify user is able to remove item from wish list page
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -62,10 +62,10 @@ Scenario: Verify guest user is able to add item to wish list from PDP page
 	
 @OXO_WISHLIST @OXO_WISHLIST_04 @P_MEDIUM
 Scenario: Verify Logged in user is able to add item to wish list from PDP page 
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -98,10 +98,10 @@ Scenario: Verify guest user is able to add item to wish list from PLP
 	
 @OXO_WISHLIST @OXO_WISHLIST_06 @P_MEDIUM
 Scenario: Verify Logged in user is able to add item to wish list from PLP
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password"
-	And Clicks on login button
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on cooking & baking category 
 	And user selects a sub category 
 	And user selects a product and clicks on wishlist icon
@@ -116,10 +116,10 @@ Scenario: Verify Logged in user is able to add item to wish list from PLP
 	
 @OXO_WISHLIST @OXO_WISHLIST_07 @P_MEDIUM
 Scenario: Verify user is able to move item to cart from wish list
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -135,10 +135,10 @@ Scenario: Verify user is able to move item to cart from wish list
 		
 @OXO_WISHLIST @OXO_WISHLIST_08 @P_MEDIUM
 Scenario: Verify user is able to move all items to cart from wish list
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
@@ -154,10 +154,10 @@ Scenario: Verify user is able to move all items to cart from wish list
 		
 @OXO_WISHLIST @OXO_WISHLIST_09 @P_MEDIUM
 Scenario: Verify user is able to move item to wish list from cart page
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+	And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on search icon 
 	And Search box will be shown to enter the text 
 	And User enters the product name "productName" 
