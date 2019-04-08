@@ -19,7 +19,7 @@
                     <reuseForks>true</reuseForks>
 					<includes>
 						<!-- <include>**/*WebTestRunner.java</include> -->
-						 <include>**/*WebTestRunner.java</include>
+						<include>**/*WebTestRunner.java</include> 
 						<!-- <include>**/*Test.java</include> -->
 						<!-- <include>${testsuitnamefromci}</include> -->
 					</includes>
