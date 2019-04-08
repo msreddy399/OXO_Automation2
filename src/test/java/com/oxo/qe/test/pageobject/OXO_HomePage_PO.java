@@ -8,7 +8,8 @@ public class OXO_HomePage_PO {
 		
 	@FindBy(xpath="(//*[@class='authorization-link'])[1]") public WebElement signIn_Lnk;
 	@FindBy(xpath = "(//*[@class='link wishlist'])[1]") public WebElement wishList_Lnk;
-	@FindBy(xpath = "//*[@class='search-tool__icon']") public WebElement Search_Icon;
+	//@FindBy(xpath = "//*[@class='search-tool__icon']") public WebElement Search_Icon;
+	@FindBy(xpath = "(//*[text() ='Search'])[1]") public WebElement Search_Icon;
 	@FindBy(xpath = "//*[@class='search-tool__text']") public WebElement Search_Txt;
 	@FindBy(xpath = "//*[@name='q']") public WebElement Search_Placeholder_Txt;
 	@FindBy(xpath = "//*[@class='block-search-close']") public WebElement Search_Close_btn;
