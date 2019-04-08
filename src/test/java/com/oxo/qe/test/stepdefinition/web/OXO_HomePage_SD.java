@@ -102,7 +102,7 @@ public class OXO_HomePage_SD extends CommonActionHelper {
 	
 	@When("^user clicks on search icon$")
 	public void user_clicks_on_search_icon() throws Throwable {
-		waitForElement(oxoHomePagePO.Search_Icon);
+		//waitForElement(oxoHomePagePO.Search_Icon);
 		assertTrue(clickOnButton(oxoHomePagePO.Search_Icon));
 		
 	}
