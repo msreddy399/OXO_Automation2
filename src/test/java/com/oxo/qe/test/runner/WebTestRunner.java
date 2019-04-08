@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
   
 @CucumberOptions(
-		features="src/test/resources/features/web/OXO_Sample.feature",
+		features="src/test/resources/features/web",
 		glue= "com.oxo.qe.test.stepdefinition.web",
 		monochrome=true, 
 		dryRun=false,
