@@ -73,10 +73,14 @@ Scenario: Verify the add to cart functionality as a guest user from PLP
 		
 @OXO_PLP @OXO_PLP_08 @P_MEDIUM
 Scenario: Verify the add to cart functionality as a registered user from PLP 
-	And user clicks on Sign In link in the header 
-	And user enters email "email" 
-	And user enters password "Password" 
-	And Clicks on login button 
+#	And user clicks on Sign In link in the header 
+#	And user enters email "email" 
+#	And user enters password "Password" 
+#	And Clicks on login button 
+    And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button
 	And user clicks on cooking & baking category 
 	And user selects a sub category 
 	When user selects a product and clicks on add to cart 
@@ -112,10 +116,14 @@ Scenario: Verify the wish list functionality as a guest user from PLP
 	
 @OXO_PLP @OXO_PLP_11 @P_MEDIUM
 Scenario: Verify the wish list functionality as a registered user from PLP 
-	And user clicks on Sign In link in the header 
-	And user enters email "emailwishlist" 
-	And user enters password "Password" 
-	And Clicks on login button 
+#	And user clicks on Sign In link in the header 
+#	And user enters email "emailwishlist" 
+#	And user enters password "Password" 
+#	And Clicks on login button 
+    And user clicks on Wish list link in the header
+    And user enter email "emailwishlist" 
+	And user enter password "Password"
+	And Clicks on Sign In button 
 	And user clicks on cooking & baking category 
 	And user selects a sub category 
 	And user selects a product and clicks on wishlist icon 
